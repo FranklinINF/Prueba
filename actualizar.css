@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 400px;
+    padding: 20px;
+    background-color: #000;
+    border: 2px solid #299fe3; /* Borde azul */
+    border-radius: 10px;
+    box-shadow: 0 0 20px #299fe3; /* Sombra azul */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: white; /* Texto verde */
+    margin-bottom: 20px;
+}
+
+.inp {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: calc(100% - 30px);
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #299fe3; /* Borde inferior azul */
+    background-color: #000;
+    color: white; /* Texto blanco */
+    outline: none;
+}
+
+.input::placeholder {
+    color: white; /* Color del placeholder azul */
+}
+
+.submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #299fe3; /* Fondo azul */
+    border: none;
+    border-radius: 5px;
+    color: white; /* Texto negro */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+    background-color: #182c38; /* Fondo verde más oscuro al pasar el mouse */
+}
+
+.footer {
+    color: white; /* Texto azul */
+    margin-top: 20px;
+    text-align: center;
+}
+
+.link {
+    color: #299fe3; /* Enlace azul */
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registro de Sesion</title>
+    <link rel="stylesheet" href="registro.css">
+  </head>
+  <body>
+    <div class="wrapper">
+        <form action="registrobd.php" class="form" method="POST">
+            <h1 class="title">Registrarse</h1>
+            <div class="inp">
+                <input type="text" name="nombres" id="nombres" class="input" placeholder="Nombres" >
+                <i class="fa-solid fa-user"></i>
+            </div>
+
+            <div class="inp">
+                <input type="text" name="apellidos" id="apellidos" class="input" placeholder="Apellidos" >
+                <i class="fa-solid fa-user"></i>
+            </div>
+
+            <div class="inp">
+                <input type="text" name="usuario" id="usuario" class="input" placeholder="Nombre de Usurio" >
+                <i class="fa-solid fa-user"></i>
+            </div>
+
+
+            <div class="inp">
+                <input type="password" name="contrasena" id="contrasena" class="input" placeholder="contraseña">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+
+            <div class="inp">
+                <input type="text" name="email" id="email" class="input" placeholder="Correo Electronico" >
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <button class="submit">Crear Cuenta</button><br>
+            <p class="footer">¿Quieres regresar al inicio?  <a href="index.html" class="link">Da clic aquí</a></p>   
+        </form>
+    </div>
+  </body>
+</html>
